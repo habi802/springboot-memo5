@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mybatis::localhost:memo4
+    url: jdbc:mariadb://localhost/memo4
     username: root
     password: green502
 
