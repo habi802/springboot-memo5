@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mybatis::localhost:memo4
+    username: root
+    password: green502
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: mappers/**/*.xml
